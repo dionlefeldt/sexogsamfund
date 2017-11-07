@@ -1,0 +1,60 @@
+#kontakt {
+    background-color: black;
+    height: 50px;
+}
+#scene {
+    background-color: white;
+    height: 50px;
+}
+#historie-ide {
+    background-color: green;
+    height: 50px;
+}
+#historiebeskrivelse {
+    background-color: pink;
+    height: 50px;
+}
+#persona {
+    background-color: coral;
+    height: 50px;
+}
+#moodboard {
+    background-color: aqua;
+    height: 50px;
+}
+#styletile {
+    background-color: lightcyan;
+    height: 50px;
+}
+#scenografi {
+    background-color: palegreen;
+    height: 50px;
+}
+#layoutdiagram {
+    background-color: mediumpurple;
+    height: 50px;
+}
+#sekvensdiagram {
+    background-color: lemonchiffon;
+    height: 50px;
+}
+#asset-liste {
+    background-color: linen;
+    height: 50px;
+}
+#test-dokumentation {
+    background-color: teal;
+    height: 50px;
+}
+#fernisering {
+   background-color: gray;
+    height: 50px;
+}
+#trello-backlog {
+    background-color: gold;
+    height: 50px;
+}
+#burndowncharts {
+    background-color: tomato;
+    height: 50px;
+}
