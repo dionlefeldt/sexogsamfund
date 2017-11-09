@@ -85,6 +85,18 @@ img {
     padding: 15px;
 }
 
+.column_narrow {
+    flex-grow: 1;
+    flex-basis: 200px;
+    padding: 15px;
+}
+
+.column_wide {
+    flex-grow: 2;
+    flex-basis: 200px;
+    padding: 15px;
+}
+
 /*------------------- COLUMNS END ---------------------*/
 
 
