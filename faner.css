@@ -4,6 +4,11 @@
     background-color: #202532;
 }
 
+*{
+    max-width: 1024px;
+    margin top: 40px;
+    margin: 0 auto;
+}
 
 img {
     width: 100%;
@@ -26,25 +31,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-}
-
-.top {
-    flex-basis: 300px;
-    flex-grow: 3;
-}
-
-.bottom {
-    align-self: flex-end;
-}
-
-.column_wide {
-    flex-basis: 300px;
-    flex-grow: 2;
-}
-
-.column_narrow {
-    flex-basis: 300px;
-    flex-grow: 1;
 }
 
 .color {
@@ -93,38 +79,29 @@ img {
 
 /*------------------ COLUMNS START ---------------------*/
 
-.column_wide {
-    flex-basis: 400px;
-    flex-grow: 2;
-    display: flex;
-    padding-left: 20px;
-}
-
-.column_narrow {
-    flex-basis: 400px;
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .column {
     flex-grow: 1;
     flex-basis: 200px;
     padding: 15px;
 }
 
-.column_content {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-}
-
 /*------------------- COLUMNS END ---------------------*/
 
 
 /*------------- TEXT STYLING START -----------------*/
+
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    padding-top: 10px;
+    color: whitesmoke;
+}
 
 p {
     padding-top: 20px;
